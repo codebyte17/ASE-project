@@ -17,11 +17,7 @@ from config                          import pdict
 @ht.timer
 def main():
     """Main: Generation of Streamlit App for visualizing electric charging stations & residents in Berlin"""
-# Load datasets
-
-    ladesaeulen_file = "D:/BHT-university/advanced software engineering-Fortgeschrittene Softwaretechnik/project/berlingeoheatmap_project1/Ladesaeulenregister.csv"
-    residents_file = "D:/BHT-university/advanced software engineering-Fortgeschrittene Softwaretechnik/project/berlingeoheatmap_project1/plz_einwohner.csv"
-
+    # Load datasets
     # Reading GeoDataFrame for PLZ geometries
     df_geodat_plz = pd.read_csv("datasets/geodata_berlin_plz.csv", sep=';', encoding='utf-8')
 
