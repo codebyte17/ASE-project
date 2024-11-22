@@ -147,7 +147,7 @@ def make_streamlit_electric_Charging_resid(dfr1, dfr2):
     st.title('Heatmaps: Electric Charging Stations and Residents')
 
     # Create a radio button for layer selection
-    # layer_selection = st.radio("Select Layer", ("Number of Residents per PLZ (Postal code)", "Number of Charging Stations per PLZ (Postal code)"))
+    #layer_selection = st.radio("Select Layer", ("Number of Residents per PLZ (Postal code)", "Number of Charging Stations per PLZ (Postal code)"))
 
     layer_selection = st.radio("Select Layer", ("Residents", "Charging_Stations"))
 
